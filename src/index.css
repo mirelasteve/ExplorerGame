@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Love Ya Like A Sister', serif;
+  /* letter-spacing:2px; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +10,202 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.svgA {
+  animation-play-state: paused;
+}
+
+/* Width Rem */
+.rem10{
+  max-width: 10rem;
+}
+.rem20{
+  max-width: 20rem;
+}
+.rem30{
+  max-width: 30rem;
+}
+/* Positions */
+.fixedPosition {
+  position:fixed;
+  left:1%;
+  right:1%;
+  top:3%;
+}
+.minusOneZIndex{
+  
+  z-index: -99999;
+}
+
+.worldMap{
+  background-image: url( 'https://firebasestorage.googleapis.com/v0/b/explorer-game-7b314.appspot.com/o/worldMap.png?alt=media&token=ec0096bb-0bc9-44bb-912e-12369abd8d38');
+  background-repeat: no-repeat;
+  background-size:100%;
+  max-height:100%;
+  min-height:100%;
+}
+/* Ships
+ */
+
+.ship {
+  
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+@keyframes example {
+  from {r:2px}
+  to {r:10px}
+}
+
+/* Paddings */
+.pb-6{
+  padding-bottom: 6rem;
+}
+.pb-10{
+  padding-bottom: 15rem;
+}
+
+/* Line Heights */
+
+.iconSize{
+  font-size:170%;
+}
+@media only screen and (max-width: 680px){
+  .iconSize{
+    font-size:80%;
+  }
+}
+.iconSizeG{
+  font-size:12%;
+}
+.lh30rem{
+  line-height :30rem
+}
+
+/* Font size */
+.root-Fz-Size {
+  font-size:1.1rem
+}
+@media only screen and (max-width: 880px){
+  .root-Fz-Size {
+    font-size:0.6rem
+  }
+}
+@media only screen and (max-width: 780px){
+  .root-Fz-Size {
+    font-size:0.5rem
+  }
+}
+@media only screen and (max-width: 680px){
+  .root-Fz-Size {
+    font-size:0.3rem
+  }
+}
+.children-Fz-85{
+  font-size:0.85rem
+}
+.fz-1-6{
+  /* font-size:1.6rem; */
+}
+
+.fz-2-7 {
+  /* font-size:2.7rem; */
+}
+@media only screen and (max-width: 600px){
+  .fz-2-7 {
+    /* font-size:1.4rem; */
+  }
+}
+/* Colors */
+.lime {
+  color:lime;
+}
+.yellowGreen {
+  color:yellowgreen;
+}
+.gold{
+  color:gold;
+}
+.floralWhite{
+  color:floralwhite
+}
+.plum {
+  color:plum;
+}
+.fuchsia {
+  color:fuchsia;
+}
+.bookstore {
+  background: indigo;
+  color:floralwhite
+}
+.shopBoat {
+  background:darkcyan;
+  color:navy;
+}
+.myProfileIcon {
+  background:purple;
+  color:plum;
+}
+.globe {
+  background:darkblue;
+  color:aqua;
+}
+.bg-sandybrown{
+  background:darkblue;
+}
+.swc {
+  color:maroon;
+}
+.dove {
+  color:pink;
+  background-color: darkred;
+}
+/* Visibility */
+
+.displayNone {
+  display:none;
+}
+.displayInitial{
+  display:initial
+}
+
+/* Typography */
+.bold {
+  font-weight:bold
+}
+.italic {
+  font-style: italic
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Transform */
+
+/* Background */
+.tunisia{
+  background-image: url('Component/Backgrounds/tunisia.jpg');
+  height:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Margins */
+
+.mt-10{
+  margin-top:10rem;
+}
+
+/* CaptainName */
+.captainName {
+  margin: 5% 30%;
+
+}
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.5em; }
+    h3 { font-size: 1.17em; }
+    h4 { font-size: 1.12em; }
+    h5 { font-size: .83em; }
+    h6 { font-size: .75em; }
