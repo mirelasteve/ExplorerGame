@@ -44,15 +44,3 @@ export default function user(state={},action){
     }
 
 }
-
-
-// [action.level-1]:{
-//     ...state.levelMissions[action.level-1],
-//     missions:{...state.levelMissions[action.level-1].missions.map(x=>{
-        
-
- 
-//  })
-
-//     }
-// }
