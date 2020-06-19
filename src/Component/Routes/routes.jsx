@@ -20,7 +20,7 @@ class Routes extends Component {
         return(
             <div>   
                 <Route exact path ='/admin' 
-                            render={()=><AdminBox  {...this.props}></AdminBox>}></Route>
+                            render={()=><AdminBox loading={this.props.showCountriesBox} {...this.props}></AdminBox>}></Route>
                 <Route exact path ='/' 
                             render={()=><Entrance  {...this.props}></Entrance>}  ></Route>
                 <Route exact path ='/home'  
@@ -30,7 +30,7 @@ class Routes extends Component {
                 <Route path ='/registration' 
                             render = {()=><Registration {...this.props}></Registration>}></Route>
                 <Route path='/countriesBox'  
-                            render={()=><CountriesBox loading={this.state.showCountriesBox} {...this.props}></CountriesBox>}></Route>
+                            render={()=><CountriesBox loading={this.props.showCountriesBox} {...this.props}></CountriesBox>}></Route>
                 <Route path='/worldMap' 
                             render ={()=><WorldMapBox {...this.props}></WorldMapBox>}></Route>
                 <Route path='/admin/missionAdminBox' 

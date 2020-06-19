@@ -227,9 +227,9 @@ class Country extends Component {
                                 </section>
                                 
                             )})
-                        : this.state.mission.map(x=>{
+                        : this.state.mission.map((x,xI)=>{
                             return(
-                                <section key={x.type} onBlur={(e)=>this.changeMission(e,x)}>
+                                <section key={xI} onBlur={(e)=>this.changeMission(e,x)}>
                                 <h5 className='text-capitalize'><i>{x.type}</i></h5>
                                 <ol>
                                     <li contentEditable="true" suppressContentEditableWarning={true} title='material'>{x.material}</li>

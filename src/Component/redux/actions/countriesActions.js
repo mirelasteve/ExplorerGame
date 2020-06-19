@@ -15,6 +15,7 @@ export function startLoadCountries(){
 
         return database.ref('Africa/countries').once('value').then((snapshot)=>{
             let countries = [];
+            
             snapshot.forEach((child)=>{
                 countries.push(child.val())
             })
