@@ -1,4 +1,4 @@
-Online game fo rexploring the world
+Online game for exploring the world
 
 Author: Mirela Tsvetkova
 
