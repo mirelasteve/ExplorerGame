@@ -10,8 +10,7 @@ class AddNewMission extends Component {
         }
     }
     handleModal(){
-       
-        this.setState({
+       this.setState({
             showModalAddMission:!this.state.showModalAddMission
         })
     }

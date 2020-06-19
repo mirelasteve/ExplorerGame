@@ -13,7 +13,7 @@ class AdminBox extends Component {
                     <Link to='/admin/missionAdminBox'>Mission Admin Box</Link>
                 </div>
                 <div>
-                    <Link to='/admin/addNewMission'>Add New Mission</Link>
+                    <Link to='/admin/addNewMission'>Add New Missions</Link>
                 </div>
                 <div>
                     <Link to='/countriesBox'>  Countries Box</Link>
