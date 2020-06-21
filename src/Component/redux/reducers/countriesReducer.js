@@ -3,7 +3,7 @@ export default function countries (state = countriesData,action){
     
     switch (action.type) {
         case 'ADD_COUNTRY' : return [...state, action.countryInfo]
-        case 'LOAD_COUNTRIES': return action.countries
+        case 'LOAD_COUNTRIES': return state = action.countries
         case 'EDIT_COUNTRY' : return   state = state
                 .sort((a,b)=>a.countryName.localeCompare(b.countryName))
                 .map(country => {

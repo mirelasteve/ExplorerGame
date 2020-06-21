@@ -9,7 +9,8 @@ class Main extends Component {
         super(props);
         this.state={
             showCountriesBox:false,
-            loading:false
+            loading:false,
+            errors:{}
         }
     }
 
